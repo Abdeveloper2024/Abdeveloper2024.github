@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+</head>
+<body>
+<h2>Restaurant</h2>
+<h2>Input type name and value attributes..</h2>
+<form action="">
+    <label for="Meal type">Type</label>
+    <select name="type" id="Meal type">
+    <option value="1">Shaworma</option>
+    <option value="2">Fahita</option>
+    <option value="3">Sheesh</option>
+    </select>
+    <br>
+    <label for="Count">Count</label>
+    <input type="number" name="Count" min="1" max="15" value="2" required>
+    <br>
+    <fieldset style="width: fit-content;"
+        <legend>Size</legend>
+        <input type="radio" name="Size" id="Size-Small" value="S">
+        <label for="Size-Small">Small</label>
+        <input type="radio" name="Size" id="Size-Medium" value="M">
+        <label for="Size-Medium">Medium</label>
+        <input type="radio" name="Size" id="Size-Large" value="L">
+        <label for="Size-Large">Large</label>
+    </fieldset>
+    <br>
+    <input type="checkbox" name="Salt" id="Salt" value="Y" checked>
+    <label for="Salt">With Salt</label>
+    <input type="checkbox" name="Spicy" id="Spicy" value="Y">
+    <label for="Spicy">With Spices</label>
+    <br>
+    <label for="Note">Notes</label>
+    <textarea name="Note" id="Note" cols="30" rows="10">Test</textarea>
+    <br><br>
+    <input type="submit" value="Request Meal">
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>

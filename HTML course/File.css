@@ -1,0 +1,16 @@
+*{
+    font-style: italic;
+}
+h2{
+    color: red;
+}
+#main{
+    background-color: rgb(68, 187, 226);
+}
+.BG-grey{
+
+    background-color: rgb(241, 40, 40);
+}
+.Blue{
+ color: blue;
+}
